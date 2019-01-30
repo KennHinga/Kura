@@ -1,9 +1,9 @@
+/* styles the container position of login */
 .login{
     margin-top: 80px;
-    margin-bottom: 80px;
-
-    
+    margin-bottom: 80px;  
 }
+/* styles the block at the top of the page */
 .quote{
     display: block;
     background-color:rgb(172, 165, 179);
@@ -11,16 +11,16 @@
     text-decoration-style: solid;
     font-size: 30px; 
     font-style: oblique;
-    text-align: ;
     height:250px;
     padding:30px;
 }
+/* styles the container form login */
 .form_login{
     max-width: 380px;
-  padding: 15px 35px 45px;
-  margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.1)
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1)
 }
 .form_control {
     position: relative;
@@ -47,12 +47,13 @@ input[type="text"] {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-
+/* styles the password input placeholder */
 input[type="password"] {
     margin-bottom: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+/* styles the reset link */
   .reset{
     display: block;
     min-height: 20px;
@@ -61,6 +62,7 @@ input[type="password"] {
     margin-bottom: 10px;
     vertical-align: middle;
 }
+/* styles the login button */
 .btn_in{
     display: block;
     width: 100%;
@@ -76,7 +78,7 @@ input[type="password"] {
     border: 1px solid transparent;
     
 }
-  
+ /* styles the register button in login page  */
 .button{
     float: right;
     display: block;
@@ -88,6 +90,7 @@ input[type="password"] {
     border-color: #357ebd;
     border: 1px solid transparent;
 }
+/* styles the footer */
 footer {
     background-color:rgb(172, 165, 179);
     padding: 10px;
@@ -95,12 +98,14 @@ footer {
     color: black;
     margin-bottom: 0%;
 }
+/* styles contacts block in the footer */
 .contact{
     display: block;
     float:right;
     font-size: 13px;
     padding-left: 0px;
 }
+/* styles the text in the footer */
 .social{
     padding-right: 200px;
     font-size: 20px;
