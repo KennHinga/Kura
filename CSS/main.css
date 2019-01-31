@@ -1,14 +1,7 @@
 /* styles the container position of login */
 .login{
     margin-top: 80px;
-    margin-bottom: 80px;
-/* input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;   */
+    margin-bottom: 80px;  
 }
 /* styles the block at the top of the page */
 .quote{
@@ -44,7 +37,7 @@
     position: relative;
     font-size: 16px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -96,12 +89,11 @@ input[type="password"] {
     background-color: #434446;
     border-color: #357ebd;
     border: 1px solid transparent;
-    padding-top: 0px;
 }
 /* styles the footer */
 footer {
     background-color:rgb(172, 165, 179);
-    padding: 0px;
+    padding: 10px;
     text-align: center;
     color: black;
     margin-bottom: 0%;
