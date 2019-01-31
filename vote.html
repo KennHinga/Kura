@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "widtd= device-widtd">
+        <title>politico</title>
+        <link rel="stylesheet" type="text/css" href= "main.css">
+    </head>
+    <body>
+        <header>
+            <div class= "container">
+                <div id="logo">
+                    <h1>Kura!</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href= "index.html">Home</a></li>
+                        <li><a href= "admin.html">Admin</a></li>
+                        <li><a href= "politician.html">Politician</a></li>
+                        <li><a href= "office.html">Offices</a></li>
+                        <li><a href= "party.html">Parties</a></li>
+                        <li class= "current"><a href= "vote.html">Vote</a></li>
+                        <li><a href= "login.html">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="vote-form">
+            <h2 id="appeal">Please Vote for your candidates</h2>
+            <div class="box">
+                <h3 class="vote-box">President</h3>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="Rao" value="rao"> Rao<br></td>
+                        <td>ODM Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Uhunye" value="ouru"> Ouru<br></td>
+                        <td>Jubilee Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Dida" value="Dida" checked>Dida<br></td>
+                        <td>Upako Party</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box">
+                <h3 class="vote-box">Governor</h3>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="BabaYao" value="BbaYao"> Baba Yao<br></td>
+                        <td>ODM Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Sonko" value="Sonko"> Sonko<br></td>
+                        <td>Jubilee Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Joho" value="Joho" checked>Joho<br></td>
+                        <td>Upako Party</td>
+                    </tr>
+                </table>   
+            </div>
+            <div class="box">
+                <h3 class="vote-box">MP</h3>
+                <table>
+                    <tr>
+                        <td><input type="checkbox" name="Babu" value="Babu"> Babu<br></td>
+                        <td>ODM Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Keter" value="Keter"> Keter<br></td>
+                        <td>Jubilee Party</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Ali" value="Ali" checked>Ali<br></td>
+                        <td>Upako Party</td>
+                    </tr>
+                </table>   
+            </div>
+            <form method="get" action="myballot.html">
+                <button type="submit" class="but1">Submit Votes</button>
+            </form>
+        </section>
+        <footer class="indF">
+            <p>kura yako maisha yako</p>
+        </footer>
+    </body>
+</html>
