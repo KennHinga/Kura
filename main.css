@@ -20,6 +20,7 @@
     font-style: oblique;
     height:250px;
     padding:30px;
+    width: auto;
 }
 /* styles the container form login */
 .form_login{
