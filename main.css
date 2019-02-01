@@ -235,3 +235,20 @@ td, th {
     width: 200px;
     height: 40px;
 }
+.but3{
+    background: green;
+    color: white;
+    margin-left: 70%;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+}
+#sarcasm{
+    background: url(images/img4.jpg);
+    height: 280px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 5%;
+}
